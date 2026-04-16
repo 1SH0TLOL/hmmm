@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>LEAKINDEX</title>
+<title>NODEZERO // INDEX</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>NODEZERO // ARCHIVE</h1>
+<div class="topbar">
+  <div class="logo">NODEZERO</div>
 
-<textarea id="post" placeholder="drop log..."></textarea><br>
-<button onclick="createPost()">execute</button>
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">Add Post</a>
+    <a href="#">Users</a>
+    <a href="#">Login</a>
+    <a href="#">Register</a>
+  </div>
+</div>
 
-<div id="posts"></div>
+<div class="container">
 
-<script type="module" src="app.js"></script>
+  <div class="panel">
+    <input placeholder="search posts..." />
+    <button>Search</button>
+  </div>
+
+  <table class="forum">
+    <tr>
+      <th>Title</th>
+      <th>Replies</th>
+      <th>Views</th>
+      <th>User</th>
+      <th>Date</th>
+    </tr>
+
+    <tr>
+      <td>system initialization log</td>
+      <td>12</td>
+      <td>240</td>
+      <td>1SH0T</td>
+      <td>today</td>
+    </tr>
+
+    <tr>
+      <td>tools archive update</td>
+      <td>4</td>
+      <td>98</td>
+      <td>node</td>
+      <td>yesterday</td>
+    </tr>
+
+  </table>
+
+</div>
+
 </body>
 </html>
 ```
-
